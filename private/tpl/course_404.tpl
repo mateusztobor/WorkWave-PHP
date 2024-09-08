@@ -1,0 +1,1 @@
+<div class="alert alert-info" role="alert">Takie szkolenie nie istnieje lub nie masz do niego dostępu.</div>

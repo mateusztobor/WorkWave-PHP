@@ -1,0 +1,94 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.nav-link,a.btn:hover,a.page-link:hover,a.navbar-brand:hover,a.dropdown-item {
+	text-decoration: none !important;
+}
+
+a.navbar-brand {
+	transition: 140ms ease-in color;
+}
+a.navbar-brand:hover {
+	color: #1155cc;
+}
+	
+#mainNav .nav-link.active {
+	background-color: #e0e0e0;
+	border-radius: 10px;
+}
+
+.chat-textbox {
+	bottom:0;
+}
+
+@media only screen and (max-width: 768px) {
+	#mainNav .nav-link {
+		text-align: center;
+		border-bottom: 2px solid #e0e0e0;
+		border-radius: 0 !important;
+	}
+	
+	.chat-textbox {
+		bottom: 64px;
+	}
+}
+
+.cursor-default {
+	cursor: default !important;
+}
+
+.workwave-tooltip {
+  --bs-tooltip-bg: #1155cc;
+  --bs-tooltip-color: var(--bs-white);
+}
+
+.no-links-underline a {
+	text-decoration: none !important;
+}
+
+.modal {
+	z-index:10000;
+}
+
+.post_content {
+	font-size: 24px;
+	resize: none;
+}
+
+.scrollHelper {
+  margin-top: -100px !important;
+  padding-top: 100px !important;
+}
+
+.btn-profile {
+	--bs-btn-bg: rgba(0,0,0,0.3);
+	--bs-btn-border: rgba(0,0,0,0.5);
+	--bs-btn-color: #fff;
+	--bs-btn-hover-bg: rgba(0,0,0,0.5);
+	--bs-btn-hover-color: #fff;
+}
+
+.bg-profile {
+	background-position: center center;
+}
+
+/*scrollbar*/
+
+*::-webkit-scrollbar {
+	width: 15px;
+	background-color: rgba(0,0,0,0.15);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #1155cc;
+	border-radius: 30px;
+}
+
+.auto-img img {
+	max-width: 100%;
+}

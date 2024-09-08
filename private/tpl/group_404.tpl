@@ -1,0 +1,1 @@
+<div class="alert alert-info" role="alert">Taka grupa nie istnieje.</div>
